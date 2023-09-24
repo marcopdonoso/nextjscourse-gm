@@ -6,6 +6,7 @@
 	"useTabs": true,
 	"bracketSpacing": true,
 	"singleQuote": true,
+	"jsxSingleQuote": true,
 	"overrides": [
 		{
 			"files": ["**/*.css", "**/*.scss"],
