@@ -1,7 +1,3 @@
 {
-	"tabWidth": 2,
-	"useTabs": true,
-	"eslintIntegration": true,
-	"arrowParens": "avoid",
-	"semi": false
+	"eslintIntegration": true
 }
