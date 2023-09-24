@@ -2,8 +2,6 @@
 	"tabWidth": 2,
 	"useTabs": true,
 	"eslintIntegration": true,
-	"jsxSingleQuote": true,
 	"arrowParens": "avoid",
-	"semi": false,
-	"tsxSingleQuote": true
+	"semi": false
 }
