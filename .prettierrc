@@ -3,5 +3,6 @@
 	"useTabs": true,
 	"eslintIntegration": true,
 	"jsxSingleQuote": true,
-	"arrowParens": "avoid"
+	"arrowParens": "avoid",
+	"semi": false
 }
