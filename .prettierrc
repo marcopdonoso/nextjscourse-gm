@@ -4,6 +4,14 @@
 	"trailingComma": "es5",
 	"semi": false,
 	"useTabs": true,
+	"bracketSpacing": true,
 	"singleQuote": true,
-	"bracketSpacing": true
+    "overrides": [
+      {
+        "files": ["**/*.css", "**/*.scss", "**/*.html"],
+        "options": {
+          "singleQuote": false
+        }
+        }
+    ]
 }
