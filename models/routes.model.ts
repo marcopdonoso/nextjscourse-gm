@@ -4,11 +4,11 @@ export const Routes = {
 		name: 'Home',
 	},
 	CHARACTERS: {
-		path: 'information/characters',
+		path: '/information/characters',
 		name: 'Characters',
 	},
 	LOCATIONS: {
-		path: 'information/locations',
+		path: '/information/locations',
 		name: 'Locations',
 	},
 }
