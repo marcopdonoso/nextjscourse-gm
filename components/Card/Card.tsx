@@ -1,5 +1,5 @@
-import './Card.css'
 import Image from 'next/image'
+import CardStyles from './Card.module.css'
 
 export interface CardData {
 	name: string
@@ -17,7 +17,7 @@ function Card({ data }: Props) {
 	formattedType ||= 'No type'
 
 	return (
-		<div className='Card'>
+		<div className={CardStyles.Card}>
 			<p>Name: {data.name}</p>
 			<p>Type: {formattedType}</p>
 			<p>Created: {data.created}</p>
