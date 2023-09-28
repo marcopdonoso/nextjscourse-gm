@@ -1,5 +1,14 @@
-import './tailwind-global.css'
 import StyledComponentsRegistry from './lib/registry'
+import { Roboto } from '@next/font/google'
+import '@/app/global.css'
+
+const roboto = Roboto({
+	weight: ['400', '700'],
+	style: ['italic', 'normal'],
+	subsets: ['latin'],
+	variable: '--font-roboto',
+	display: 'optional',
+})
 
 export const metadata = {
 	title: 'Next.js',
@@ -12,7 +21,7 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<html lang='en'>
+		<html className={roboto.variable}>
 			<body>
 				<StyledComponentsRegistry>{children}</StyledComponentsRegistry>
 			</body>
